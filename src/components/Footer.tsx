@@ -5,7 +5,13 @@ const Footer = () => {
       <div className="container mx-auto">
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           <div>
-            <div className="text-2xl font-light tracking-tight mb-4">VTrend</div>
+            <div className="flex items-center space-x-3 mb-4">
+              <img 
+                src="/lovable-uploads/5f99d87d-ac54-48e7-a6f5-9a4b20336881.png" 
+                alt="VTrend Logo" 
+                className="h-8 w-auto"
+              />
+            </div>
             <p className="text-gray-400 font-light leading-relaxed">
               Democratizing AI-powered trading for everyone. Join thousands of traders already using VTrend to automate their success.
             </p>

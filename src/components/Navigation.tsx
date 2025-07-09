@@ -26,8 +26,12 @@ const Navigation = () => {
     }`}>
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-2xl font-light tracking-tight">
-            VTrend
+          <div className="flex items-center space-x-3">
+            <img 
+              src="/lovable-uploads/5f99d87d-ac54-48e7-a6f5-9a4b20336881.png" 
+              alt="VTrend Logo" 
+              className="h-8 w-auto"
+            />
           </div>
           
           <div className="hidden md:flex items-center space-x-8">

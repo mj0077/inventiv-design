@@ -4,17 +4,17 @@ const HowItWorks = () => {
     {
       title: "Connect Your Wallet",
       description: "Securely link your trading wallet to VTrend's platform with bank-level encryption and security protocols.",
-      image: "🔗"
+      image: "/lovable-uploads/78c5993b-40bf-4f0a-85de-e8dfdfdd5722.png"
     },
     {
       title: "Set Up Your AI Assistant", 
       description: "Configure your personalized AI trading assistant with your risk preferences and investment goals.",
-      image: "🤖"
+      image: "/lovable-uploads/5ed17b0e-fbc5-4081-90a1-e4dbe70b5183.png"
     },
     {
       title: "Automate Your Trading",
       description: "Let our AI execute trades automatically based on market analysis and your predefined strategies.",
-      image: "⚡"
+      image: "/lovable-uploads/931a747c-e006-481c-92a6-6a2fce0e8315.png"
     }
   ];
 
@@ -33,8 +33,14 @@ const HowItWorks = () => {
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {steps.map((step, index) => (
             <div key={index} className="relative">
-              <div className="bg-gray-900/50 backdrop-blur-sm border border-gray-700/50 rounded-3xl p-8 text-center hover:border-emerald-500/30 transition-all duration-300 hover:scale-105">
-                <div className="text-6xl mb-6">{step.image}</div>
+              <div className="bg-gray-900/50 backdrop-blur-sm border border-gray-700/50 rounded-3xl p-8 text-center hover:border-emerald-500/30 transition-all duration-300 hover:scale-102">
+                <div className="flex justify-center mb-6">
+                  <img 
+                    src={step.image} 
+                    alt={step.title}
+                    className="w-16 h-16 object-contain"
+                  />
+                </div>
                 <div className="absolute -top-4 -right-4 w-8 h-8 bg-gradient-to-r from-emerald-500 to-cyan-500 rounded-full flex items-center justify-center text-white font-light text-sm">
                   {index + 1}
                 </div>
