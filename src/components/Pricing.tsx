@@ -65,7 +65,7 @@ const Pricing = () => {
 
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {plans.map((plan, index) => (
-            <div key={index} className={`relative bg-gray-900/30 backdrop-blur-sm border rounded-3xl p-8 ${
+            <div key={index} className={`relative bg-gray-900/30 backdrop-blur-sm border rounded-3xl p-8 transition-all duration-300 hover:scale-105 ${
               plan.recommended 
                 ? 'border-emerald-500/50 shadow-2xl shadow-emerald-500/10' 
                 : 'border-gray-700/50'
@@ -96,7 +96,7 @@ const Pricing = () => {
                 ))}
               </ul>
 
-              <Button className={`w-full font-light ${
+              <Button className={`w-full font-light transition-transform duration-200 hover:scale-105 ${
                 plan.recommended
                   ? 'bg-gradient-to-r from-emerald-500 to-cyan-500 hover:from-emerald-600 hover:to-cyan-600'
                   : 'bg-gray-800 hover:bg-gray-700 border border-gray-600'

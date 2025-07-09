@@ -73,12 +73,28 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply text-foreground;
     font-family: 'Inter', sans-serif;
     font-weight: 300;
+    background: linear-gradient(135deg, #0a0a0a 0%, #0f1419 25%, #1a3a2e 50%, #16423c 75%, #0a0a0a 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
   }
   
   h1, h2, h3, h4, h5, h6 {
     letter-spacing: -0.025em;
   }
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.slide-animation {
+  animation: slideLeft 30s linear infinite;
 }

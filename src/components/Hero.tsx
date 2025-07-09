@@ -15,14 +15,14 @@ const Hero = () => {
             Harness the power of AI to automate your trading strategies. Connect your wallet, 
             set up your AI assistant, and watch your portfolio grow with intelligent automation.
           </p>
-          <Button className="bg-gradient-to-r from-emerald-500 to-cyan-500 hover:from-emerald-600 hover:to-cyan-600 text-white font-light px-8 py-6 text-lg rounded-xl">
+          <Button className="bg-gradient-to-r from-emerald-500 to-cyan-500 hover:from-emerald-600 hover:to-cyan-600 text-white font-light px-8 py-6 text-lg rounded-xl transition-transform duration-200 hover:scale-105">
             Get Started Today
           </Button>
         </div>
         
-        <div className="relative max-w-6xl mx-auto">
+        <div className="relative max-w-4xl mx-auto">
           <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/20 to-cyan-500/20 blur-3xl rounded-full"></div>
-          <div className="relative bg-gray-900/50 backdrop-blur-sm border border-gray-700/50 rounded-3xl p-8 shadow-2xl">
+          <div className="relative bg-gray-900/50 backdrop-blur-sm border border-gray-700/50 rounded-3xl p-6 shadow-2xl transition-transform duration-300 hover:scale-105">
             <img 
               src="/lovable-uploads/dda0af0f-ecfb-40dd-a443-2e24934de26e.png" 
               alt="VTrend Dashboard Interface"

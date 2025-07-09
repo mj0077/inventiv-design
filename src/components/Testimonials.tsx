@@ -55,7 +55,7 @@ const Testimonials = () => {
         </div>
 
         <div className="relative max-w-4xl mx-auto">
-          <div className="overflow-hidden rounded-3xl bg-gray-900/30 backdrop-blur-sm border border-gray-700/50">
+          <div className="overflow-hidden rounded-3xl bg-gray-900/30 backdrop-blur-sm border border-gray-700/50 transition-all duration-300 hover:scale-105">
             <div 
               className="flex transition-transform duration-500 ease-in-out"
               style={{ transform: `translateX(-${currentIndex * 100}%)` }}

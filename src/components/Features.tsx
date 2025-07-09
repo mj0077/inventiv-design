@@ -37,7 +37,7 @@ const Features = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
           {features.map((feature, index) => (
-            <div key={index} className="bg-gray-900/30 backdrop-blur-sm border border-gray-700/50 rounded-3xl p-8 hover:border-emerald-500/30 transition-all duration-300 hover:transform hover:scale-105">
+            <div key={index} className="bg-gray-900/30 backdrop-blur-sm border border-gray-700/50 rounded-3xl p-8 hover:border-emerald-500/30 transition-all duration-300 hover:scale-105">
               <div className="text-5xl mb-6">{feature.icon}</div>
               <h3 className="text-2xl font-light tracking-tight mb-4">{feature.title}</h3>
               <p className="text-gray-400 font-light leading-relaxed">{feature.description}</p>
