@@ -76,10 +76,11 @@
     @apply text-foreground;
     font-family: 'Inter', sans-serif;
     font-weight: 300;
-    background: radial-gradient(ellipse at top left, #00ff00 0%, #00cc00 10%, #004400 30%, #000000 60%), 
-                radial-gradient(ellipse at bottom right, #22ff22 0%, #008800 15%, #002200 40%, #000000 70%),
-                radial-gradient(ellipse at center, #00aa00 0%, #004400 25%, #000000 50%),
-                linear-gradient(135deg, #000000 0%, #001100 25%, #002200 50%, #000000 75%, #000000 100%);
+    background: radial-gradient(ellipse at 20% 10%, rgba(0, 255, 100, 0.4) 0%, rgba(0, 200, 50, 0.2) 20%, rgba(0, 100, 25, 0.1) 40%, transparent 70%),
+                radial-gradient(ellipse at 80% 30%, rgba(50, 255, 100, 0.3) 0%, rgba(25, 150, 50, 0.15) 25%, transparent 60%),
+                radial-gradient(ellipse at 60% 80%, rgba(0, 255, 150, 0.2) 0%, rgba(0, 100, 50, 0.1) 30%, transparent 60%),
+                radial-gradient(ellipse at 40% 60%, rgba(100, 255, 150, 0.15) 0%, rgba(50, 150, 75, 0.08) 35%, transparent 70%),
+                linear-gradient(180deg, #000000 0%, #001a00 30%, #002200 50%, #001100 80%, #000000 100%);
     background-attachment: fixed;
     min-height: 100vh;
   }

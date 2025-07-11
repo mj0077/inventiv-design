@@ -33,7 +33,7 @@ const HowItWorks = () => {
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {steps.map((step, index) => (
             <div key={index} className="relative">
-              <div className="bg-gray-900/50 backdrop-blur-sm border border-gray-700/50 rounded-3xl p-8 text-center hover:border-emerald-500/30 transition-all duration-300 hover:scale-102">
+              <div className="bg-gray-900/50 backdrop-blur-sm border border-gray-700/50 rounded-3xl p-8 text-center hover:border-green-500/30 transition-all duration-300 hover:scale-102">
                 <div className="flex justify-center mb-6">
                   <img 
                     src={step.image} 
@@ -41,7 +41,7 @@ const HowItWorks = () => {
                     className="w-16 h-16 object-contain"
                   />
                 </div>
-                <div className="absolute -top-4 -right-4 w-8 h-8 bg-gradient-to-r from-emerald-500 to-cyan-500 rounded-full flex items-center justify-center text-white font-light text-sm">
+                <div className="absolute -top-4 -right-4 w-8 h-8 bg-gradient-to-r from-green-500 to-emerald-500 rounded-full flex items-center justify-center text-white font-light text-sm">
                   {index + 1}
                 </div>
                 <h3 className="text-2xl font-light tracking-tight mb-4">{step.title}</h3>

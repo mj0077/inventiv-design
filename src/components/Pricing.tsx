@@ -67,12 +67,12 @@ const Pricing = () => {
           {plans.map((plan, index) => (
             <div key={index} className={`relative bg-gray-900/30 backdrop-blur-sm border rounded-3xl p-8 transition-all duration-300 hover:scale-105 ${
               plan.recommended 
-                ? 'border-emerald-500/50 shadow-2xl shadow-emerald-500/10' 
+                ? 'border-green-500/50 shadow-2xl shadow-green-500/10' 
                 : 'border-gray-700/50'
             }`}>
               {plan.recommended && (
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                  <span className="bg-gradient-to-r from-emerald-500 to-cyan-500 text-white px-4 py-2 rounded-full text-sm font-light">
+                  <span className="bg-gradient-to-r from-green-500 to-emerald-500 text-white px-4 py-2 rounded-full text-sm font-light">
                     Recommended
                   </span>
                 </div>
@@ -90,7 +90,7 @@ const Pricing = () => {
               <ul className="space-y-4 mb-8">
                 {plan.features.map((feature, featureIndex) => (
                   <li key={featureIndex} className="flex items-center text-gray-300 font-light">
-                    <span className="text-emerald-500 mr-3">✓</span>
+                    <span className="text-green-500 mr-3">✓</span>
                     {feature}
                   </li>
                 ))}
@@ -98,7 +98,7 @@ const Pricing = () => {
 
               <Button className={`w-full font-light transition-transform duration-200 hover:scale-105 ${
                 plan.recommended
-                  ? 'bg-gradient-to-r from-emerald-500 to-cyan-500 hover:from-emerald-600 hover:to-cyan-600'
+                  ? 'bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600'
                   : 'bg-gray-800 hover:bg-gray-700 border border-gray-600'
               }`}>
                 {plan.name === 'Enterprise' ? 'Contact Sales' : 'Get Started'}
