@@ -20,11 +20,24 @@ const Hero = () => {
           </Button>
         </div>
         
-        <div className="relative max-w-4xl mx-auto">
+        {/* Spline 3D Background */}
+        <div className="absolute inset-0 w-full h-full flex items-center justify-center">
+          <div className="w-full h-96 opacity-60">
+            <iframe 
+              src='https://my.spline.design/holoblobs-kWL3XblGuBNYnwxM5Jsh6rox/' 
+              frameBorder='0' 
+              width='100%' 
+              height='100%'
+              title="3D Background Animation"
+            />
+          </div>
+        </div>
+
+        <div className="relative max-w-4xl mx-auto z-10">
           <div className="absolute inset-0 bg-gradient-to-r from-green-500/20 to-emerald-500/20 blur-3xl rounded-full"></div>
           <div className="relative bg-gray-900/50 backdrop-blur-sm border border-gray-700/50 rounded-3xl p-6 shadow-2xl transition-transform duration-300 hover:scale-105">
             <img 
-              src="/lovable-uploads/dda0af0f-ecfb-40dd-a443-2e24934de26e.png" 
+              src="/lovable-uploads/5974bbee-8215-4ad8-be0f-f26fdb1a8942.png" 
               alt="VTrend Dashboard Interface"
               className="w-full h-auto rounded-2xl shadow-lg"
             />
