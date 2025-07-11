@@ -7,7 +7,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-3 mb-4">
               <img 
-                src="/lovable-uploads/5f99d87d-ac54-48e7-a6f5-9a4b20336881.png" 
+                src="/lovable-uploads/64a7a3fe-02b0-4c68-850e-763391c88eca.png" 
                 alt="VTrend Logo" 
                 className="h-8 w-auto"
               />

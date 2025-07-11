@@ -76,7 +76,10 @@
     @apply text-foreground;
     font-family: 'Inter', sans-serif;
     font-weight: 300;
-    background: linear-gradient(135deg, #000000 0%, #0a0f0a 15%, #0f1f0f 30%, #1a3329 45%, #0f2419 60%, #0a1a0f 75%, #000000 100%);
+    background: radial-gradient(ellipse at top left, #00ff00 0%, #00cc00 10%, #004400 30%, #000000 60%), 
+                radial-gradient(ellipse at bottom right, #22ff22 0%, #008800 15%, #002200 40%, #000000 70%),
+                radial-gradient(ellipse at center, #00aa00 0%, #004400 25%, #000000 50%),
+                linear-gradient(135deg, #000000 0%, #001100 25%, #002200 50%, #000000 75%, #000000 100%);
     background-attachment: fixed;
     min-height: 100vh;
   }
