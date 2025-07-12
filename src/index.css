@@ -83,7 +83,7 @@
       radial-gradient(ellipse 60% 80% at 90% 30%, rgba(100, 255, 200, 0.3) 0%, rgba(0, 180, 90, 0.15) 40%, transparent 70%),
       conic-gradient(from 270deg at 30% 80%, rgba(0, 220, 110, 0.4) 0deg, rgba(0, 150, 75, 0.2) 45deg, transparent 90deg),
       radial-gradient(ellipse 90% 40% at 60% 100%, rgba(0, 255, 150, 0.3) 0%, rgba(0, 120, 60, 0.1) 60%, transparent 100%),
-      #000000;
+      #111111;
     background-attachment: fixed;
     min-height: 100vh;
     animation: aurora-flow 20s ease-in-out infinite alternate;
