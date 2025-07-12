@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <section id="hero" className="pt-20 pb-20 px-6 relative min-h-screen">
+    <section id="hero" className="pt-20 pb-20 px-8 relative min-h-screen">
       <div className="container mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[70vh]">
           {/* Left Column - Text Content */}
@@ -28,7 +28,7 @@ const Hero = () => {
             <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-green-400/30 via-emerald-400/20 to-transparent blur-3xl rounded-full z-10"></div>
             <div className="absolute top-10 right-10 w-64 h-64 bg-gradient-to-bl from-green-300/40 via-emerald-300/25 to-transparent blur-2xl rounded-full z-10"></div>
             
-            <div className="w-full max-w-lg h-96 lg:h-[600px] relative z-20 -translate-y-[100px]">
+            <div className="w-full max-w-lg h-96 lg:h-[600px] relative z-20 -translate-y-[65px]">
               <iframe src='https://my.spline.design/particles-aWBzRWlpCB769fCbmlRv6AB0/' frameborder='0' width='100%' height='100%'></iframe>
             </div>
           </div>
