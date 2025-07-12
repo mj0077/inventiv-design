@@ -33,7 +33,7 @@ const HowItWorks = () => {
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {steps.map((step, index) => (
             <div key={index} className="relative">
-              <div className="bg-gray-900/50 backdrop-blur-sm border border-gray-700/50 rounded-3xl p-8 text-center hover:border-green-500/30 transition-all duration-300 hover:scale-102">
+              <div className="bg-gray-900/50 backdrop-blur-sm border border-gray-700/50 rounded-3xl p-8 text-center hover:border-green-500/30 transition-all duration-300 hover:scale-102 hover:shadow-[0_0_30px_rgba(34,197,94,0.3)]">
                 <div className="flex justify-center mb-6">
                   <img 
                     src={step.image} 

@@ -3,9 +3,9 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <section id="hero" className="pt-32 pb-20 px-6">
+    <section id="hero" className="pt-32 pb-20 px-6 relative">
       <div className="container mx-auto text-center">
-        <div className="max-w-4xl mx-auto mb-16">
+        <div className="max-w-4xl mx-auto mb-16 relative z-20">
           <h1 className="text-6xl md:text-7xl font-light tracking-tight mb-6 bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
             The Future of
             <br />
@@ -21,7 +21,7 @@ const Hero = () => {
         </div>
         
         {/* Spline 3D Background */}
-        <div className="absolute inset-0 w-full h-full flex items-center justify-center">
+        <div className="absolute inset-0 w-full h-full flex items-center justify-center z-0">
           <div className="w-full h-96 opacity-60">
             <iframe 
               src='https://my.spline.design/holoblobs-kWL3XblGuBNYnwxM5Jsh6rox/' 
