@@ -22,9 +22,13 @@ const Hero = () => {
             </Button>
           </div>
 
-          {/* Right Column - 3D Design */}
+          {/* Right Column - 3D Design with Top-Right Lighting */}
           <div className="relative flex items-center justify-center lg:justify-end">
-            <div className="w-full max-w-lg h-96 lg:h-[500px] relative">
+            {/* Top-right lighting effect */}
+            <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-green-400/30 via-emerald-400/20 to-transparent blur-3xl rounded-full z-10"></div>
+            <div className="absolute top-10 right-10 w-64 h-64 bg-gradient-to-bl from-green-300/40 via-emerald-300/25 to-transparent blur-2xl rounded-full z-10"></div>
+            
+            <div className="w-full max-w-lg h-96 lg:h-[500px] relative z-20">
               <iframe 
                 src='https://my.spline.design/holoblobs-kWL3XblGuBNYnwxM5Jsh6rox/' 
                 frameBorder='0' 
