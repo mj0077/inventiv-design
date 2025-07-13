@@ -28,7 +28,7 @@ const Hero = () => {
             <div className="absolute top-10 right-10 w-64 h-64 bg-gradient-to-bl from-green-300/40 via-emerald-300/25 to-transparent blur-2xl rounded-full z-10"></div>
             
             <div className="w-full max-w-lg h-96 lg:h-[600px] relative z-20 -translate-y-[65px]">
-              <iframe src='https://my.spline.design/particles-aWBzRWlpCB769fCbmlRv6AB0/' frameborder='0' width='100%' height='100%'></iframe>
+              <iframe src='https://my.spline.design/particles-aWBzRWlpCB769fCbmlRv6AB0/' frameBorder='0' width='100%' height='100%'></iframe>
             </div>
           </div>
         </div>
