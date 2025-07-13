@@ -8,10 +8,10 @@ const About = () => {
       <Navigation />
       <div className="pt-32 pb-20 px-6">
         <div className="container mx-auto max-w-4xl">
-          <h1 className="text-5xl font-light tracking-tight mb-8">About VTrend</h1>
+          <h1 className="text-5xl font-light tracking-tight mb-8">About Inventiv</h1>
           <div className="space-y-8 text-gray-300 font-light leading-relaxed">
             <p className="text-xl">
-              VTrend was founded with a simple yet ambitious vision: to democratize access to sophisticated trading technology and level the playing field between retail traders and institutional investors.
+              Inventiv was founded with a simple yet ambitious vision: to democratize access to sophisticated trading technology and level the playing field between retail traders and institutional investors.
             </p>
             
             <p>
@@ -19,7 +19,7 @@ const About = () => {
             </p>
             
             <p>
-              Today, VTrend combines advanced machine learning algorithms with intuitive user interfaces, making AI-powered trading accessible to traders of all experience levels. Our platform processes millions of data points every second, identifying patterns and opportunities that would be impossible for human traders to detect manually.
+              Today, Inventiv combines advanced machine learning algorithms with intuitive user interfaces, making AI-powered trading accessible to traders of all experience levels. Our platform processes millions of data points every second, identifying patterns and opportunities that would be impossible for human traders to detect manually.
             </p>
             
             <p>

@@ -23,7 +23,7 @@ const Blogs = () => {
     },
     {
       id: 3,
-      title: "Getting Started with VTrend: A Beginner's Guide",
+      title: "Getting Started with Inventiv: A Beginner's Guide",
       excerpt: "Step-by-step instructions for new users to set up their first AI trading strategy and start their automated trading journey with confidence.",
       date: "March 5, 2024",
       readTime: "4 min read",
@@ -45,7 +45,7 @@ const Blogs = () => {
       <div className="pt-32 pb-20 px-6">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
-            <h1 className="text-5xl font-light tracking-tight mb-8">VTrend Blog</h1>
+            <h1 className="text-5xl font-light tracking-tight mb-8">Inventiv Blog</h1>
             <p className="text-xl text-gray-400 font-light max-w-2xl mx-auto">
               Insights, tutorials, and market analysis from our team of trading experts and AI researchers.
             </p>

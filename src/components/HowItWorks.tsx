@@ -3,7 +3,7 @@ const HowItWorks = () => {
   const steps = [
     {
       title: "Connect Your Wallet",
-      description: "Securely link your trading wallet to VTrend's platform with bank-level encryption and security protocols.",
+      description: "Securely link your trading wallet to Inventiv's platform with bank-level encryption and security protocols.",
       image: "/lovable-uploads/78c5993b-40bf-4f0a-85de-e8dfdfdd5722.png"
     },
     {
@@ -26,7 +26,7 @@ const HowItWorks = () => {
             How It Works
           </h2>
           <p className="text-gray-400 font-light text-lg max-w-2xl mx-auto">
-            Get started with VTrend in three simple steps and begin your journey to automated trading success
+            Get started with Inventiv in three simple steps and begin your journey to automated trading success
           </p>
         </div>
 

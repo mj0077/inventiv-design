@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 
 const FAQ = () => {
@@ -6,20 +5,20 @@ const FAQ = () => {
 
   const faqs = [
     {
-      question: "How does VTrend's AI trading work?",
-      answer: "VTrend uses advanced machine learning algorithms to analyze market data, identify patterns, and execute trades automatically based on your predefined strategies and risk parameters. Our AI processes thousands of data points in real-time to make informed trading decisions."
+      question: "How does Inventiv's AI trading work?",
+      answer: "Inventiv uses advanced machine learning algorithms to analyze market data, identify patterns, and execute trades automatically based on your predefined strategies and risk parameters. Our AI processes thousands of data points in real-time to make informed trading decisions."
     },
     {
-      question: "Is my money and data secure with VTrend?",
+      question: "Is my money and data secure with Inventiv?",
       answer: "Yes, security is our top priority. We use bank-level encryption, secure API connections, and never store your exchange credentials directly. Your funds remain in your own exchange accounts, and we only have permission to execute trades on your behalf."
     },
     {
       question: "Can I customize my trading strategies?",
-      answer: "Absolutely! VTrend allows you to customize various parameters including risk tolerance, asset allocation, stop-loss levels, and trading frequency. You can also choose from pre-built strategies or create your own custom approaches."
+      answer: "Absolutely! Inventiv allows you to customize various parameters including risk tolerance, asset allocation, stop-loss levels, and trading frequency. You can also choose from pre-built strategies or create your own custom approaches."
     },
     {
-      question: "What exchanges does VTrend support?",
-      answer: "VTrend supports major exchanges including Binance, Coinbase Pro, Kraken, Bitfinex, and many others. We're constantly adding support for new exchanges based on user demand."
+      question: "What exchanges does Inventiv support?",
+      answer: "Inventiv supports major exchanges including Binance, Coinbase Pro, Kraken, Bitfinex, and many others. We're constantly adding support for new exchanges based on user demand."
     },
     {
       question: "How much can I expect to earn?",
@@ -43,7 +42,7 @@ const FAQ = () => {
             Frequently Asked Questions
           </h2>
           <p className="text-gray-400 font-light text-lg max-w-2xl mx-auto">
-            Got questions? We've got answers. Find everything you need to know about VTrend.
+            Got questions? We've got answers. Find everything you need to know about Inventiv.
           </p>
         </div>
 

@@ -9,18 +9,18 @@ const Mission = () => {
           </h2>
           <div className="text-xl text-gray-300 font-light leading-relaxed mb-8">
             <p className="mb-6">
-              At VTrend, we believe that sophisticated trading strategies shouldn't be limited to 
+              At Inventiv, we believe that sophisticated trading strategies shouldn't be limited to 
               institutional investors and hedge funds. Our mission is to democratize access to 
               advanced AI-powered trading tools, making them available to every trader regardless 
               of their background or experience level.
             </p>
             <p className="mb-6">
-              We built VTrend because we saw a gap in the market - while AI was transforming 
+              We built Inventiv because we saw a gap in the market - while AI was transforming 
               industries across the board, retail traders were still relying on outdated tools 
               and manual strategies. We knew there had to be a better way.
             </p>
             <p>
-              Today, VTrend empowers thousands of traders worldwide to compete on an equal footing 
+              Today, Inventiv empowers thousands of traders worldwide to compete on an equal footing 
               with institutional players, using the same cutting-edge technology that was once 
               exclusive to Wall Street.
             </p>

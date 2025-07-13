@@ -24,7 +24,6 @@ const Hero = () => {
 
           {/* Right Column - 3D Design with Top-Right Lighting */}
           <div className="relative flex items-center justify-center lg:justify-end">
-            {/* Top-right lighting effect */}
             <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-green-400/30 via-emerald-400/20 to-transparent blur-3xl rounded-full z-10"></div>
             <div className="absolute top-10 right-10 w-64 h-64 bg-gradient-to-bl from-green-300/40 via-emerald-300/25 to-transparent blur-2xl rounded-full z-10"></div>
             
@@ -40,7 +39,7 @@ const Hero = () => {
           <div className="relative bg-gray-900/50 backdrop-blur-sm border border-gray-700/50 rounded-3xl p-6 shadow-2xl transition-transform duration-300 hover:scale-105">
             <img 
               src="/lovable-uploads/5974bbee-8215-4ad8-be0f-f26fdb1a8942.png" 
-              alt="VTrend Dashboard Interface"
+              alt="Inventiv Dashboard Interface"
               className="w-full h-auto rounded-2xl shadow-lg"
             />
           </div>

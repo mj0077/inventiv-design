@@ -8,12 +8,12 @@ const Footer = () => {
             <div className="flex items-center space-x-3 mb-4">
               <img 
                 src="/lovable-uploads/64a7a3fe-02b0-4c68-850e-763391c88eca.png" 
-                alt="VTrend Logo" 
+                alt="Inventiv Logo" 
                 className="h-8 w-auto"
               />
             </div>
             <p className="text-gray-400 font-light leading-relaxed">
-              Democratizing AI-powered trading for everyone. Join thousands of traders already using VTrend to automate their success.
+              Democratizing AI-powered trading for everyone. Join thousands of traders already using Inventiv to automate their success.
             </p>
           </div>
           
@@ -49,7 +49,7 @@ const Footer = () => {
         
         <div className="pt-8 border-t border-gray-800/50 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 font-light">
-            © 2024 VTrend. All rights reserved.
+            © 2024 Inventiv. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="text-gray-400 hover:text-white transition-colors">Twitter</a>

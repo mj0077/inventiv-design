@@ -14,7 +14,7 @@ const Contact = () => {
           <div className="text-center mb-16">
             <h1 className="text-5xl font-light tracking-tight mb-8">Get In Touch</h1>
             <p className="text-xl text-gray-400 font-light">
-              Have questions about VTrend? We'd love to hear from you.
+              Have questions about Inventiv? We'd love to hear from you.
             </p>
           </div>
           
@@ -24,15 +24,15 @@ const Contact = () => {
               <div className="space-y-6">
                 <div>
                   <h3 className="text-lg font-light mb-2">Email</h3>
-                  <p className="text-gray-400 font-light">hello@vtrend.com</p>
+                  <p className="text-gray-400 font-light">hello@inventiv.com</p>
                 </div>
                 <div>
                   <h3 className="text-lg font-light mb-2">Support</h3>
-                  <p className="text-gray-400 font-light">support@vtrend.com</p>
+                  <p className="text-gray-400 font-light">support@inventiv.com</p>
                 </div>
                 <div>
                   <h3 className="text-lg font-light mb-2">Business</h3>
-                  <p className="text-gray-400 font-light">business@vtrend.com</p>
+                  <p className="text-gray-400 font-light">business@inventiv.com</p>
                 </div>
               </div>
             </div>
